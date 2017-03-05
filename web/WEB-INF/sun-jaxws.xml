@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
+
+    <endpoint
+            name='HelloWorld'
+            implementation='example.HelloWorld'
+            url-pattern='/services/HelloWorld'/>
+    <endpoint
+            name='OrderManagementService'
+            implementation='com.champion.services.OrderManagementService'
+            url-pattern='/services/OrderManagementService'/>
+    <endpoint
+            name='CustomerManagementService'
+            implementation='com.champion.services.CustomerManagementService'
+            url-pattern='/services/CustomerManagementService'/>
+    <endpoint
+            name='ProductManagementService'
+            implementation='com.champion.services.ProductManagementService'
+            url-pattern='/services/ProductManagementService'/>
+    <endpoint
+            name='VendorManagementService'
+            implementation='com.champion.services.VendorManagementService'
+            url-pattern='/services/VendorManagementService'/>
+</endpoints>
